@@ -28,7 +28,7 @@ if (config.COMMAND_TYPE === 'button') {
 cmd({
     pattern: "setprefix",
     react: "🗣️",
-    desc: "To change bot prefix",if
+    desc: "To change bot prefix",
     category: "main",
     use: '.setprefix .',
     filename: __filename
