@@ -40,7 +40,7 @@ WELCOME: process.env.WELCOME || false  ,
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,         
 LOGO: process.env.LOGO || `https://res.cloudinary.com/df2rnoijw/image/upload/v1751873666/cudef6prscrlf8mp7wqo.jpg` ,
-COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,    
+COMMAND_TYPE: process.env.COMMAND_TYPE || 'nonbutton' ,    
 ANTI_DELETE : process.env.ANTI_DELETE || false ,  
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO        
 };
